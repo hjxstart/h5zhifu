@@ -1,0 +1,38 @@
+{
+  "name": "h5zhifu",
+  "version": "0.0.1",
+  "description": "H5zhifu Test",
+  "main": "app.ts",
+  "type": "module",
+  "proxy": "https://service-mljis9nw-1252021128.gz.apigw.tencentcs.com",
+  "scripts": {
+    "serve": "node --loader ts-node/esm ./app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjxstart/h5zhifu.git"
+  },
+  "keywords": [
+    "H5zhifu",
+    "WeChatPay",
+    "AliPay"
+  ],
+  "author": "hjxstart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjxstart/h5zhifu/issues"
+  },
+  "homepage": "https://github.com/hjxstart/h5zhifu#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.13",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  }
+}
